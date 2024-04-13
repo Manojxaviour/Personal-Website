@@ -19,7 +19,7 @@
 
 $(function() {
     "use strict";
-    debugger;
+
     /* 1. Custom mouse cursor */
 	document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
 		e.style.left = n.clientX + "px", 
